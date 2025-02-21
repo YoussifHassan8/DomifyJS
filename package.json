@@ -1,0 +1,35 @@
+{
+  "name": "domify-js",
+  "type": "module",
+  "version": "1.0.4",
+  "description": "A frontend framework to teach web developers how frontend frameworks work.",
+  "keywords": [
+    "frontend",
+    "framework",
+    "book",
+    "learning",
+    "web",
+    "development"
+  ],
+  "main": "dist/domify-js.js",
+  "files": [
+    "dist/domify-js.js"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "prepack": "npm run build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "jsdom": "^22.1.0",
+    "rollup": "^3.28.1",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-filesize": "^10.0.0",
+    "vitest": "^0.34.3"
+  }
+}

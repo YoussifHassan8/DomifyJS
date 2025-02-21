@@ -7,7 +7,7 @@ DomifyJS is a lightweight, flexible frontend framework built from scratch in Jav
 - [Purpose](#purpose)
 - [Installation](#installation)
 - [How It Works](#how-it-works)
-- [How to Use DomifyJS](how-to-use-domifyjs)
+- [How to Use DomifyJS](#how-to-use-domifyjs)
 - [Usage Example](#usage-example)
 - [Vanilla JS vs DomifyJS](#vanilla-js-vs-domifyjs)
 - [Benefits Over Vanilla JS](#benefits-over-vanilla-js)
